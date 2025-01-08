@@ -15,7 +15,7 @@
       "error",
       "ignorePackages",
       {
-        "js": "never"  // Tidak mengharuskan ekstensi .js untuk file lokal
+        "js": "always"  // Tidak mengharuskan ekstensi .js untuk file lokal
       }
     ],
     "no-console": "off",
