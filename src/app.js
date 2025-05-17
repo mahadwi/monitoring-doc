@@ -4,7 +4,7 @@ import morgan from 'morgan';
 import helmet from 'helmet';
 import route from './routes/index.js';
 import key from './config/env.js';
-import setupDB from './config/database.js';
+// import setupDB from './config/database.js';
 import logger from './utils/logger.js';
 
 const app = express();
@@ -20,6 +20,6 @@ if (key.nodeEnv === 'production') {
 }
 app.use(cors());
 app.use(express.json());
-setupDB();
+// setupDB();
 
 export default route(app);
