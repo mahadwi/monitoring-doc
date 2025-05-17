@@ -15,11 +15,13 @@
       "error",
       "ignorePackages",
       {
-        "js": "always"  // Tidak mengharuskan ekstensi .js untuk file lokal
+        "js": "always"
       }
     ],
     "no-console": "off",
     "consistent-return": "off", // Optional for flexibility in Express routes
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }] // Ignore 'next' in middleware
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }], // Ignore 'next' in middleware
+    "import/no-extraneous-dependencies": "off",
+    "no-underscore-dangle": "off"
   }
 }
